@@ -1,13 +1,15 @@
 import './App.css'
+import Header   from './components/header/header'
 
 function App() {
 
   return (
     <>
-    <h1 className="">Murang'a University Tech Club</h1>
+    <Header />
  
     </>
   )
 }
 
 export default App
+ 
