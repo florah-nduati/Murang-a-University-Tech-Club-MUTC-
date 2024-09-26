@@ -5,9 +5,9 @@
   padding: 2rem;
   transition: 03s;
 }
-.testimony-card:hover{
-    background-color: var(--color-footer);
-    color: var(--color-white);
+.testimony-card:hover {
+  background-color: var(--color-footer);
+  color: var(--color-white);
 }
 .testimony-card-details {
   display: flex;
@@ -27,9 +27,9 @@
   padding-left: 2rem;
   transition: 03s;
 }
-.testimony-card-alumni-name:hover{
-    background-color: var(color-primary);
-    color: var(--color-white);
+.testimony-card-alumni-name:hover {
+  background-color: var(color-primary);
+  color: var(--color-white);
 }
 .testimony-title {
   padding: 2rem;
