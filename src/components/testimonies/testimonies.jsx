@@ -1,4 +1,7 @@
 import "./testimonies.css";
+import testimonies from "../../data/testimonies";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import customer1 from "../../assets/alumni1.jpg";
 function TestimoniesCard({ customerAvater, customerName, title, text }) {
   return (
@@ -14,6 +17,8 @@ function TestimoniesCard({ customerAvater, customerName, title, text }) {
 }
 function Testimonies() {
   return (
+    <Carousel>
+
     <section className="testimonies-section">
       <h2 className="title">testimonies</h2>
       <div className="testimonies-container">
@@ -25,6 +30,7 @@ function Testimonies() {
         />
       </div>
     </section>
+    </Carousel>
   );
 }
 
