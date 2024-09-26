@@ -1,0 +1,32 @@
+.testimony-card {
+  box-shadow: 0 0 0.3rem var(--color-footer);
+  width: 60rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.testimony-card-details {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.testimony-card-details img {
+  --size: 7rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+}
+.testimony-card-customer-name {
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: var(--color-footer);
+  padding-left: 2rem;
+}
+.testimony-title {
+  padding: 2rem;
+  font-weight: bolder;
+}
+.testimony-text {
+  font-size: inherit;
+  line-height: 3rem;
+}

@@ -1,0 +1,45 @@
+.hero-section {
+  background-color: var(--color-black);
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 90vh;
+}
+.hero-video {
+  position: absolute;
+  margin: 7rem 0;
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  background-position: bottom;
+}
+.hero-textbox {
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+  margin: 7rem;
+  text-transform: capitalize;
+  color: var(--color-blue);
+}
+
+.hero-text {
+  font-size: 40px;
+  justify-content: center;
+  line-height: 6rem;
+  font-weight: 1000;
+}
+
+.hero-link {
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background-color: var(--color-secondary);
+  padding: 2rem 3rem;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 4rem;
+}
