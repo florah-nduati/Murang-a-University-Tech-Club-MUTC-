@@ -1,4 +1,6 @@
 import "./testimonies.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css'; 
 import customer1 from "../../assets/alumni1.jpg";
 function TestimoniesCard({ customerAvater, customerName, title, text }) {
   return (
