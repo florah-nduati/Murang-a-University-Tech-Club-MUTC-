@@ -1,13 +1,18 @@
 .testimony-card {
-  box-shadow: 0 0 0.3rem var(--color-footer);
-  width: 60rem;
+  box-shadow: 0 0 10rem var(--color-footer);
+  width: 30rem;
   margin: 2rem auto;
   padding: 2rem;
+  transition: 03s;
+}
+.testimony-card:hover{
+    background-color: var(--color-footer);
+    color: var(--color-white);
 }
 .testimony-card-details {
   display: flex;
-  justify-content: center;
   gap: 1rem;
+  justify-content: center;
   align-items: center;
 }
 .testimony-card-details img {
@@ -16,11 +21,15 @@
   height: var(--size);
   border-radius: 50%;
 }
-.testimony-card-customer-name {
+.testimony-card-alumni-name {
   text-transform: capitalize;
-  font-size: 3rem;
   color: var(--color-footer);
   padding-left: 2rem;
+  transition: 03s;
+}
+.testimony-card-alumni-name:hover{
+    background-color: var(color-primary);
+    color: var(--color-white);
 }
 .testimony-title {
   padding: 2rem;

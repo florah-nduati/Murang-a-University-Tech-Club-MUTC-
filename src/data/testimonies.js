@@ -36,7 +36,7 @@ const testimonies = [
     alumniAvater: alumni5,
     alumniName: "Pauline Muthoni",
     title: "Mobile Developer and Alumni",
-    text: "MUTC's mobile development track helped me understand the ins and outs of Android development. I’m now working as a junior mobile developer at a tech startup.",
+    text: "MUTC's mobile development track helped me understand the ins and outs of Android development. I am now working as a junior mobile developer at a tech startup.",
   },
   {
     alumniAvater: alumni6,
@@ -48,7 +48,7 @@ const testimonies = [
     alumniAvater: alumni7,
     alumniName: "Carolyne Wanjiku",
     title: "Data Scientist and Alumni",
-    text: "The workshops on machine learning and data science laid the foundation for my passion in the field. I’m now pursuing a career in data science thanks to MUTC.",
+    text: "The workshops on machine learning and data science laid the foundation for my passion in the field. I am now pursuing a career in data science thanks to MUTC.",
   },
   {
     alumniAvater: alumni8,

@@ -30,6 +30,5 @@ body {
   text-align: center;
   text-transform: capitalize;
   font-size: 3rem;
-  margin: 2rem;
   background-color: var(--color-primary);
 }

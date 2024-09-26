@@ -21,10 +21,9 @@
 }
 .cta-buton {
   text-decoration: none;
-  color: var(--color-white);
+  color: var(--color-secondary);
   background-color: var(--color-secondary);
   display: block;
-  border-radius: 50px;
   text-align: center;
   text-transform: capitalize;
   padding: 1rem;
