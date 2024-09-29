@@ -1,0 +1,24 @@
+.footer {
+  padding: 5rem;
+  background-color: var(--color-footer);
+}
+.footer-text {
+  text-align: center;
+  color: var(--color-white);
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  line-height: 5rem;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: var(--color-tersiary);
+}
+.footer-link a {
+  font-size: 2rem;
+  padding: 10rem;
+}

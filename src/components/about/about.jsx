@@ -1,6 +1,6 @@
 import "./about.css";
 import aboutImage from "../../assets/about.jpg";
-function AboutUs() {
+function About() {
   return (
     <section className="about-us section">
       <h2 className="title">about us</h2>
@@ -55,12 +55,8 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <a href="" className="cta-buton">
-        {" "}
-        learn more
-      </a>
     </section>
   );
 }
 
-export default AboutUs;
+export default About;

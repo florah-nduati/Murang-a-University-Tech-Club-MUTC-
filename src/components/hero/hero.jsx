@@ -1,7 +1,7 @@
 import heroVideo from "../../assets/hero2.mp4";
 import "./hero.css";
 
-function HeroSection() {
+function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-container">
@@ -24,4 +24,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Hero;

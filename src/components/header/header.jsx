@@ -7,7 +7,7 @@ function HeaderNavigation() {
         <ol className="navigation-list">
           <li className="navigation-item">
             {" "}
-            <a href="#" className="navigation-link">
+            <a href="/" className="navigation-link">
               home
             </a>
           </li>
@@ -19,13 +19,13 @@ function HeaderNavigation() {
           </li>
           <li className="navigation-item">
             {" "}
-            <a href="#" className="navigation-link">
+            <a href="/Leadership" className="navigation-link">
               leadership
             </a>
           </li>
           <li className="navigation-item">
             {" "}
-            <a href="#" className="navigation-link">
+            <a href="/Tracks" className="navigation-link">
               tracks
             </a>
           </li>

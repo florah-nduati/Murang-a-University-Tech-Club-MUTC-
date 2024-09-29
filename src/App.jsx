@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/header";
-import HeroSection from "./components/hero/hero";
-import AboutUs from "./components/about/about";
-import Testimonies from "./components/testimonies/testimonies";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
+import Leadership from "./components/leadership/leadership";
+import Tracks from "./components/tracks/tracks";
 
 function App() {
   const [deviceType, setDeviceType] = useState("desktop");
@@ -30,9 +32,14 @@ function App() {
   return (
     <>
       <Header />
-      <HeroSection />
-      <AboutUs />
-      <Testimonies deviceType={deviceType} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home deviceType={deviceType} />} />
+          <Route path="/Leadership" element={<Leadership />} />
+          <Route path="/tracks" element={<Tracks />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }

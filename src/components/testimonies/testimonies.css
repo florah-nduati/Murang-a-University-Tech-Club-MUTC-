@@ -21,6 +21,9 @@
   height: var(--size);
   border-radius: 50%;
 }
+.testimonies-container {
+  margin: 7rem 10rem;
+}
 .testimony-card-alumni-name {
   text-transform: capitalize;
   color: var(--color-footer);
@@ -28,7 +31,7 @@
   transition: 03s;
 }
 .testimony-card-alumni-name:hover {
-  background-color: var(color-primary);
+  background-color: var(--color-primary);
   color: var(--color-white);
 }
 .testimony-title {

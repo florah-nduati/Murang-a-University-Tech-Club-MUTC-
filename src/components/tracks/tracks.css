@@ -1,0 +1,75 @@
+.tracks-page {
+  width: 80%;
+  margin: 0 auto;
+  font-family: inherit;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+.Tracks {
+  font-size: 2rem;
+}
+
+.tracks-list {
+  margin-bottom: 3rem;
+}
+
+.track {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+}
+
+.track h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.track p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.registration-form {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--color-tersiary);
+}
