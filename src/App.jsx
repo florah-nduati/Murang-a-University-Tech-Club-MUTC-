@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
 import Leadership from "./components/leadership/leadership";
 import Tracks from "./components/tracks/tracks";
+import Events from "./components/Events/events";
 
 function App() {
   const [deviceType, setDeviceType] = useState("desktop");
@@ -37,6 +38,7 @@ function App() {
           <Route path="/" element={<Home deviceType={deviceType} />} />
           <Route path="/Leadership" element={<Leadership />} />
           <Route path="/tracks" element={<Tracks />} />
+          <Route path="/Events" element={<Events />} />
         </Routes>
       </BrowserRouter>
       <Footer />

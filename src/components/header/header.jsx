@@ -31,7 +31,7 @@ function HeaderNavigation() {
           </li>
           <li className="navigation-item">
             {" "}
-            <a href="#" className="navigation-link">
+            <a href="/Events" className="navigation-link">
               events
             </a>
           </li>
