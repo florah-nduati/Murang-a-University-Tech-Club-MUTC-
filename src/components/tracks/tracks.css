@@ -20,34 +20,40 @@
 .track {
   margin-bottom: 2rem;
   padding: 1rem;
-  background-color: var(--color-primary);
+  background-color: var(--color-blue);
   border-radius: 8px;
 }
 
 .track h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin: 2rem;
+  text-align: center;
+  color: var(--color-footer);
 }
 
 .track p {
-  font-size: 1rem;
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
   line-height: 1.5;
+  line-height: 3.5rem;
 }
 
 .registration-form {
   background-color: #f9f9f9;
   padding: 2rem;
   border-radius: 8px;
+  margin-top: 3rem;
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .form-group label {
   display: block;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .form-group input,

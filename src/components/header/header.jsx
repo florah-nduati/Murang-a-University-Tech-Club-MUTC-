@@ -13,7 +13,7 @@ function HeaderNavigation() {
           </li>
           <li className="navigation-item">
             {" "}
-            <a href="#" className="navigation-link">
+            <a href="/" className="navigation-link">
               about
             </a>
           </li>

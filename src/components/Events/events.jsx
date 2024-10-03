@@ -1,5 +1,5 @@
 import React from "react";
-import "./Events.css";
+import "./events.css";
 
 function Event({ title, day, time, Venue, leader }) {
   return (
