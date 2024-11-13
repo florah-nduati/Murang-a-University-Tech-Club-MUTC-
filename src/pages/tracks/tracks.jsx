@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Tracks.css";
+import "./tracks.css";
 
 function Tracks() {
   const [formData, setFormData] = useState({
