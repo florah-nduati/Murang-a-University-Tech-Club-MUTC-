@@ -9,6 +9,7 @@
   font-size: 6rem;
   margin-bottom: 2rem;
 }
+
 .Tracks {
   font-size: 2rem;
 }
@@ -79,3 +80,59 @@
 .submit-btn:hover {
   background-color: var(--color-tersiary);
 }
+
+/* Tablet Screens */
+@media screen and (max-width: 900px) {
+  .tracks-page {
+    width: 90%;
+  }
+
+  .page-title {
+    font-size: 4rem; /* Reduce title font size on tablets */
+  }
+
+  .track h2 {
+    font-size: 2rem; /* Adjust track title size */
+  }
+
+  .track p {
+    font-size: 1.8rem; /* Adjust paragraph text size */
+  }
+
+  .registration-form {
+    padding: 1.5rem; /* Reduce form padding */
+  }
+
+  .submit-btn {
+    padding: 0.75rem 1rem; /* Adjust button padding */
+  }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 600px) {
+  .tracks-page {
+    width: 95%;
+  }
+
+  .page-title {
+    font-size: 3rem; /* Make title smaller on mobile */
+  }
+
+  .track h2 {
+    font-size: 1.8rem; /* Adjust title font size */
+  }
+
+  .track p {
+    font-size: 1.6rem; /* Adjust paragraph text size */
+    line-height: 2.5rem; /* Adjust line height */
+  }
+
+  .registration-form {
+    padding: 1rem; /* Further reduce padding */
+  }
+
+  .submit-btn {
+    padding: 0.5rem 1rem; /* Adjust button padding for mobile */
+  }
+}
+

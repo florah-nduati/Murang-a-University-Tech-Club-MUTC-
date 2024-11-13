@@ -1,0 +1,126 @@
+.leadership-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.leader {
+  width: 40rem;
+  margin: 2rem;
+  box-shadow: 5px 5px 8px rgba(0, 0, 10, 10);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.leader-name {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.leader-role {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.leader-description {
+  line-height: 30px;
+  background-color: var(--color-white);
+}
+
+.leader-image {
+  background-color: var(--color-secondary);
+  width: 30rem;
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.social-icons a {
+  font-size: 4rem;
+  margin: 1rem;
+  width: 4rem;
+  box-shadow: 5px 5px 8px rgba(0, 0, 10, 10);
+  height: 4rem;
+  transition: 0.3s;
+  color: var(--color-footer);
+}
+
+.social-icons a:hover {
+  color: var(--color-secondary);
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 900px) {
+  .leader {
+    width: 30rem; /* Reduce the width on tablets */
+    margin: 1.5rem; /* Adjust margin for a more compact layout */
+  }
+
+  .leader-name {
+    font-size: 1.8rem; /* Slightly smaller text on tablets */
+  }
+
+  .leader-role {
+    font-size: 1.6rem; /* Adjust font size for tablets */
+  }
+
+  .leader-image {
+    width: 25rem; /* Adjust image size */
+    margin-left: 3rem; /* Adjust positioning */
+  }
+
+  .social-icons {
+    gap: 2rem; /* Reduce gap for smaller screens */
+  }
+
+  .social-icons a {
+    font-size: 3.5rem; /* Adjust icon size */
+    width: 3.5rem; /* Adjust icon size */
+    height: 3.5rem; /* Adjust icon size */
+  }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 600px) {
+  .leader {
+    width: 100%; /* Full width for mobile */
+    margin: 1rem; /* Adjust margin */
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .leader-image {
+    width: 100%; /* Full width for the image */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .leader-name {
+    font-size: 1.5rem; /* Smaller text on mobile */
+  }
+
+  .leader-role {
+    font-size: 1.4rem; /* Smaller role text */
+  }
+
+  .leader-description {
+    padding: 1rem; /* Add padding for readability */
+  }
+
+  .social-icons {
+    gap: 1.5rem; /* Reduce gap between icons */
+  }
+
+  .social-icons a {
+    font-size: 3rem; /* Adjust icon size */
+    width: 3rem; /* Adjust width */
+    height: 3rem; /* Adjust height */
+  }
+}

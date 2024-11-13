@@ -1,4 +1,4 @@
-import heroVideo from "../../assets/hero2.mp4";
+import heroVideo from "../../../assets/hero2.mp4";
 import "./hero.css";
 
 function Hero() {

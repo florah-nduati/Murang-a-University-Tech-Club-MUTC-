@@ -1,5 +1,5 @@
 import "./about.css";
-import aboutImage from "../../assets/about.jpg";
+import aboutImage from "../../../assets/about.jpg";
 function About() {
   return (
     <section className="about-us section">

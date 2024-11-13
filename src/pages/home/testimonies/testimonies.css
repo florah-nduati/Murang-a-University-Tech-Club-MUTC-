@@ -3,42 +3,101 @@
   width: 30rem;
   margin: 2rem auto;
   padding: 2rem;
-  transition: 03s;
+  transition: 0.3s;
 }
+
 .testimony-card:hover {
   background-color: var(--color-footer);
   color: var(--color-white);
 }
+
 .testimony-card-details {
   display: flex;
   gap: 1rem;
   justify-content: center;
   align-items: center;
 }
+
 .testimony-card-details img {
   --size: 7rem;
   width: var(--size);
   height: var(--size);
   border-radius: 50%;
 }
+
 .testimonies-container {
   margin: 7rem 10rem;
 }
+
 .testimony-card-alumni-name {
   text-transform: capitalize;
   color: var(--color-footer);
   padding-left: 2rem;
-  transition: 03s;
+  transition: 0.3s;
 }
+
 .testimony-card-alumni-name:hover {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
+
 .testimony-title {
   padding: 2rem;
   font-weight: bolder;
 }
+
 .testimony-text {
   font-size: inherit;
   line-height: 3rem;
 }
+
+/* Tablet Screens */
+@media screen and (max-width: 900px) {
+  .testimony-card {
+    width: 25rem;
+    padding: 1.5rem;
+  }
+
+  .testimonies-container {
+    margin: 5rem 5rem;
+  }
+
+  .testimony-card-alumni-name {
+    padding-left: 1.5rem;
+  }
+
+  .testimony-title {
+    font-size: 1.5rem;
+  }
+
+  .testimony-text {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 600px) {
+  .testimony-card {
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  .testimonies-container {
+    margin: 3rem 2rem;
+  }
+
+  .testimony-card-alumni-name {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .testimony-title {
+    font-size: 1.2rem;
+  }
+
+  .testimony-text {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
+}
+

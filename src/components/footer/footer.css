@@ -1,24 +1,60 @@
 .footer {
-  padding: 5rem;
+  padding: 3rem;
   background-color: var(--color-footer);
 }
 .footer-text {
   text-align: center;
   color: var(--color-white);
-  font-size: 4rem;
-  margin-bottom: 3rem;
-  line-height: 5rem;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
 }
 .footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-decoration: underline;
   text-transform: capitalize;
-  color: var(--color-tersiary);
+  color: var(--color-tertiary);
 }
 .footer-link a {
-  font-size: 2rem;
-  padding: 10rem;
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+/* Medium screens (tablets, small desktops) */
+@media (min-width: 768px) {
+  .footer {
+    padding: 4rem;
+  }
+  .footer-text {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .footer-link {
+    font-size: 3rem;
+  }
+  .footer-link a {
+    font-size: 1.8rem;
+    padding: 5rem;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  .footer {
+    padding: 5rem;
+  }
+  .footer-text {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .footer-link {
+    font-size: 4rem;
+  }
+  .footer-link a {
+    font-size: 2rem;
+    padding: 10rem;
+  }
 }

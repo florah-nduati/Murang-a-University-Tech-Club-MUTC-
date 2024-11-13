@@ -1,5 +1,5 @@
 import "./testimonies.css";
-import testimonies from "../../data/testimonies";
+import testimonies from "../../../data/testimonies";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

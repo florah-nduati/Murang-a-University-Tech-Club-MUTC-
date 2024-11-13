@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
-import Leadership from "./components/leadership/leadership";
-import Tracks from "./components/tracks/tracks";
-import Events from "./components/Events/events";
+import Leadership from "./pages/leadership/leadership";
+import Tracks from "./pages/tracks/tracks";
+import Events from "./pages/Events/events";
 
 function App() {
   const [deviceType, setDeviceType] = useState("desktop");

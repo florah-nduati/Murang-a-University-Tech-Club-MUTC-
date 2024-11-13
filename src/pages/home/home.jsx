@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from "../../components/hero/hero";
-import About from "../../components/about/about";
-import Testimonies from "../../components/testimonies/testimonies";
+import Hero from "./hero/hero";
+import About from "./about/about";
+import Testimonies from "./testimonies/testimonies";
 
 function Home({ deviceType }) {
   return (
