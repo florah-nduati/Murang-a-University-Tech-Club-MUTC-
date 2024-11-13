@@ -1,26 +1,27 @@
-.about-us {
+.about-us section {
   display: flex;
-  flex-direction: column;
 }
 
 .about-us-container {
   display: flex;
-  flex-wrap: wrap;
-  margin: 2rem;
-  gap: 2rem;
+  margin: 4rem;
+  gap: 3rem;
 }
 
-.about-us-textbox,
+.about-us-textbox {
+  width: 50%;
+}
+
 .about-us-card {
-  width: 100%;
+  width: 50%;
 }
 
 .introduction {
   padding: 1rem;
   letter-spacing: 1px;
-  line-height: 1.5rem;
+  line-height: 3rem;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
 }
 
 .cta-buton {
@@ -38,18 +39,17 @@
   width: 100%;
   margin-top: 2rem;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 20, 10);
 }
 
 .about-us-card {
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-wrap: wrap;
 }
 
-.about-us-card:hover {
+.about-us-card :hover {
   background-color: var(--color-primary);
-  color: var(--color-black);
+  color: var(color-black);
   cursor: pointer;
 }
 
@@ -61,18 +61,18 @@
 
 .about-us-details {
   text-align: center;
-  width: 100%;
+  width: 50%;
   padding: 1rem;
   letter-spacing: 1px;
   gap: 3rem;
   justify-content: space-between;
-  line-height: 1.8rem;
+  line-height: 3rem;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 20, 10);
   transition: 0.3s;
 }
 
-.about-us-details:hover {
+.about-us-details :hover {
   color: var(--color-black);
 }
 
@@ -80,50 +80,66 @@
   list-style: none;
 }
 
-/* Tablet Screens */
+/* Responsive Styles for Small Gadgets */
+
+/* For screens smaller than 900px (tablets and below) */
 @media screen and (max-width: 900px) {
   .about-us-container {
+    flex-direction: column;
     margin: 2rem;
-    gap: 1.5rem;
   }
-
+  
   .about-us-textbox,
   .about-us-card {
     width: 100%;
   }
 
-  .introduction {
-    line-height: 1.6rem;
-  }
-  
-  .about-us-details {
-    line-height: 1.6rem;
-  }
-}
-
-/* Mobile Screens */
-@media screen and (max-width: 600px) {
-  .about-us {
-    padding: 1rem;
-  }
-
-  .about-us-container {
-    margin: 1rem;
-    gap: 1rem;
+  .about-us-card {
+    margin-bottom: 2rem;
   }
 
   .introduction {
-    padding: 0.8rem;
-    line-height: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .cta-buton {
+    padding: 0.8rem;
     font-size: 1rem;
+  }
+
+  .about-us-details {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
+/* For screens smaller than 600px (mobile devices) */
+@media screen and (max-width: 600px) {
+  .about-us-container {
+    margin: 1rem;
+  }
+
+  .introduction {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .cta-buton {
+    font-size: 0.9rem;
     padding: 0.8rem;
   }
 
   .about-us-details {
     padding: 0.8rem;
-    line-height: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .image {
+    margin-top: 1rem;
   }
 }

@@ -26,11 +26,11 @@
   text-align: center;
   padding: 2rem;
   margin: 7rem;
-  color: var(--color-blue);
+  color: var(--color-secondary);
 }
 
 .hero-text {
-  font-size: 2.5rem;
+  font-size: 4rem;
   line-height: 4rem;
   font-weight: 1000;
   margin: 0;
@@ -41,7 +41,7 @@
   text-decoration: none;
   text-transform: capitalize;
   letter-spacing: 2px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-tersiary);
   padding: 1rem 2rem;
   border-radius: 50px;
   display: inline-block;
